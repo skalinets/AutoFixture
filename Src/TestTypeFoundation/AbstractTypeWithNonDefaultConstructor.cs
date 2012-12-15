@@ -16,6 +16,8 @@ namespace Ploeh.TestTypeFoundation
             this.property = value;
         }
 
+        public abstract string StringProperty { get; }
+
         public T Property
         {
             get { return this.property; }

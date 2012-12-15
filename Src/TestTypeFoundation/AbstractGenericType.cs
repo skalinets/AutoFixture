@@ -9,6 +9,6 @@ namespace Ploeh.TestTypeFoundation
             this.t = t;
         }
 
-        public T Value { get { return this.t; }}
+        public virtual T Value { get { return this.t; }}
     }
 }
